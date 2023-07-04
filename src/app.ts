@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }))
 
 //HI
 //testing
-app.get('/', (req: Request, res: any) => {
+app.get('/', (req: Request, res: Response) => {
   res.send('Working successfully ')
 })
 
